@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* For navigation */
+.logo:hover{
+    cursor: pointer;
+    color:gray !important;
+}
+.navbar-nav{
+    font-size:20px;
+}
+.navbar-nav .nav-item{
+    margin-right:50px;
+}
+.navbar-nav .nav-item>.nav-link:hover{
+    color:rgb(73, 216, 235);
+}
+/* for button */
+.buttons .profile{
+    background-color:aquamarine !important;
+}
+.buttons .btn-project{
+    border:1px solid yellow;
+}
+.buttons .btn-project:hover{
+    border:none;
+    background-color: aquamarine;
+}
+/* progress bar */
+.progress{
+    height:30px;
+    border-radius:16px;
+    border:1px solid azure;
+    transition:all 0.5s ease;
+}
+.progress:hover{
+    transform:scale(1.1);
+}
+/* Contact section */
+#contact{
+    height:120px;
+}
+.icons{
+    font-size: 20px;
+    text-align: center;
+}
+.github{
+    color:black;
+}
+.github:hover{
+    color:grey;
+}
+.facebook:hover{
+    color:blue;
+}
+.phone{
+    color:blue;
+}
+.mail{
+    color:#343638ea;
+}
